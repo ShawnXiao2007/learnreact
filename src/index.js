@@ -9,7 +9,6 @@ import './styles/styles.css'; //Webpack can import CSS files too
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const store = configureStore();
-alert("script execution");
 render(
     <Provider store={store}>
         <Router history={browserHistory} routes={routes} />

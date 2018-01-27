@@ -5,32 +5,6 @@
 </head>
 <body>
 <div id="app"></div>
-<script src="../bundle.js" onload='alert("script onload event fired")'></script>
-<!-- <script src="https://supportdev.office.com/dist/Osefobundle.js?version=6663"></script>
-<script src="https://osefo.azureedge.net/dist/Osefobundle.js?version=6663"></script>
-<script>
-    var httpReq = new XMLHttpRequest();
-    var params = JSON.stringify({
-        TagId: 1234567,
-        Message: "xhr from localhost!",
-        LogLevel: 6
-    });
-
-    var appId = "osefo";
-    var locale = "";
-    var sessionId = "";
-    if ((typeof osefoAppContext !== "undefined") && osefoAppContext && osefoAppContext.clientContext) {
-        appId = osefoAppContext.clientContext.appId || appId;
-        locale = osefoAppContext.clientContext.locale || locale;
-        sessionId = (osefoAppContext.userContext && osefoAppContext.userContext.sessionId) || sessionId;
-    }
-
-    httpReq.open('POST', "https://supportdev.office.com/v1.0/apps/" + appId + "/traces");
-//    httpReq.setRequestHeader("sessionId", sessionId);
-//    httpReq.setRequestHeader("locale", locale);
-//    httpReq.setRequestHeader("Content-type", "application/json");
-    httpReq.withCredentials = true;
-    httpReq.send(params);
-</script> -->
+<script src="../bundle.js"></script>
 </body>
 </html>
